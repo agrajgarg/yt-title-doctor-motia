@@ -1,8 +1,50 @@
+# Dependencies
 node_modules
 python_modules
+
+# Virtual environments
 .venv
 venv
+env
+.env
+
+# Motia-specific
 .motia
 .mermaid
+
+# Build outputs
 dist
+build
+*.js.map
+
+# Python
 *.pyc
+*.pyo
+*.pyd
+__pycache__
+*.egg-info
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.cursor
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env.local
+.env.*.local
